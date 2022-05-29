@@ -2,7 +2,7 @@ FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -qO- https://github.com/gue520/railgo/blob/main/railgo.zip | busybox unzip - && \
+    wget -qO- https://github.com/hulaibntg/haode/blob/main/railgo.zip | busybox unzip - && \
     chmod +x /xray && \
     rm -rf /var/cache/apk/*
 
