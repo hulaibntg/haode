@@ -3,10 +3,10 @@
 # configs
 AUUID=09aa980a-2804-4625-bbb7-cb9d0bc88b8e
 CADDYIndexPage=https://github.com/Externalizable/bongo.cat/archive/master.zip
-CONFIGCADDY=https://raw.githubusercontent.com/gue520/railgo/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/gue520/railgo/etc/xray.json
+CONFIGCADDY=https://raw.githubusercontent.com/hulaibntg/haode/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/hulaibntg/haode/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
-StoreFiles=https://raw.githubusercontent.com/gue520/railgo/etc/StoreFiles
+StoreFiles=https://raw.githubusercontent.com/hulaibntg/haode/etc/StoreFiles
 #PORT=4433
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt
 wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/caddy/index.html -d /usr/share/caddy/ && mv /usr/share/caddy/*/* /usr/share/caddy/
