@@ -17,11 +17,11 @@
         },
         "CONFIGCADDY": {
             "description": "不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/gue520/railgo/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/hulaibntg/haode/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/gue520/railgo/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/hulaibntg/haode/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/gue520/railgo/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/hulaibntg/haode/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/gue520/railgo",
-    "repository": "https://github.com/gue520/railgo",
+    "website": "https://github.com/hulaibntg/haode",
+    "repository": "https://github.com/hulaibntg/haode",
     "stack": "container"
 }
